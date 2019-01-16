@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   min_person = name_hash.first
-  min = min_person.
+  min = min_person.flatten
   name_hash.collect do |key, val|
     if val < min
       min = val
