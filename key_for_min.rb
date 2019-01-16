@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   min = 100
-  print min
   name_hash.collect do |key, val|
     if val < min
       min = val
